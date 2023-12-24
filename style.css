@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box  ;
+}
+
+#nav{
+    height: 50px;
+    width:100%;
+    position: fixed;
+    display:flex;
+    /* background-color: red; */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    z-index: 1;
+
+}
+#nav h4{
+    padding: 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    /* color:black; */
+    font-size: 24px;
+
+}
+video{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position: fixed;
+}
+#main{
+position: relative;
+background-color: rgba(0, 0, 0, 0.517);
+
+}
+#page1{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#page1 button{
+    width:30%;
+    margin:10px;
+    height:40px;
+    cursor:pointer;
+    color:black;
+    font-size:20px;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+#page1 h1{
+   font-size:120px;
+   font-weight: 800;
+    z-index: 2;
+    position: relative;
+}
+#page1 h1::before{
+    content: "ANSO TRUST";
+    position:absolute;
+    color:black;
+    top:-4px;
+    left: -3px;
+    -webkit-text-stroke: 1px rgb(204, 255, 0);
+    z-index: -1;
+
+}
+/* #page2 {
+
+} */
