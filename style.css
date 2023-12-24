@@ -50,10 +50,11 @@ video {
     text-align: center;
 }
 
-#page1 button {
+#page1 a {
     width: 30%;
     margin: 10px;
     height: 40px;
+    text-decoration: none;
     cursor: pointer;
     color: black;
     font-size: 20px;
@@ -79,16 +80,6 @@ video {
 
 }
 
-#showimg {
-    height: 200px;
-    width: 200px;
-    background-color: black;
-    position: absolute;
-    top: 50%;
-    left: 38%;
-    display: none;
-
-}
 
 @media screen and (max-width: 776px) {
     #nav {
